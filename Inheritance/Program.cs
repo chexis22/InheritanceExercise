@@ -6,6 +6,23 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            var eagle = new Bird();
+
+            eagle.HasFeathers = true;
+            eagle.Beak = 1;
+            eagle.HasGizzard = true;
+            eagle.Tallon = 6;
+            Console.WriteLine($"Do eagles have feathers? :{eagle.HasFeathers}. Eagles have {eagle.Beak} beak and {eagle.Tallon} tallons!");
+
+            var alligator = new Reptile();
+            alligator.ColdBlooded = true;
+            alligator.Scales = true;
+            alligator.Teeth = 100;
+            alligator.Tail = 1;
+            alligator.Legs = 4;
+
+            Console.WriteLine($"Alligators are cold-blooded is {alligator.ColdBlooded} and alligators have scales is {alligator.Scales}!");
+            Console.WriteLine($"Alligators have {alligator.Eyes} eyes");
             // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal
@@ -30,7 +47,7 @@ namespace Inheritance
              */
 
             /*Create an object of your Reptile class
-             *  give values to your members using the object of your Bird class
+             *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
