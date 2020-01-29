@@ -15,13 +15,13 @@ namespace Inheritance
             Console.WriteLine($"Do eagles have feathers? :{eagle.HasFeathers}. Eagles have {eagle.Beak} beak and {eagle.Tallon} tallons!");
 
             var alligator = new Reptile();
-            alligator.ColdBlooded = true;
-            alligator.Scales = true;
+            alligator.IsColdBlooded = true;
+            alligator.HasScales = true;
             alligator.Teeth = 100;
             alligator.Tail = 1;
             alligator.Legs = 4;
 
-            Console.WriteLine($"Alligators are cold-blooded is {alligator.ColdBlooded} and alligators have scales is {alligator.Scales}!");
+            Console.WriteLine($"Alligators are cold-blooded is {alligator.IsColdBlooded} and alligators have scales is {alligator.HasScales}!");
             Console.WriteLine($"Alligators have {alligator.Eyes} eyes");
             // TODO Be sure to follow best practice when creating your classes
 
